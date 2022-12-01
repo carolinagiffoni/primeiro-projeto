@@ -1,4 +1,3 @@
-package main;
 
 import java.util.Scanner;
 
@@ -29,43 +28,43 @@ public class Main {
                    case 1: {
                        System.out.print("Digite o segundo numero: ");
                        numeroB = scanner.nextDouble();
-                       System.out.println(calculadora.soma(numeroA, numeroB));
+                       System.out.println(calculadora.calcularSoma(numeroA, numeroB));
                        break;
                    }
                    case 2: {
                        System.out.print("Digite o segundo numero: ");
                        numeroB = scanner.nextDouble();
-                       System.out.println(calculadora.subtracao(numeroA, numeroB));
+                       System.out.println(calculadora.calcularSubtracao(numeroA, numeroB));
                        break;
                    }
                    case 3: {
                        System.out.print("Digite o segundo numero: ");
                        numeroB = scanner.nextDouble();
-                       System.out.println(calculadora.divisao(numeroA, numeroB));
+                       System.out.println(calculadora.calcularDivisao(numeroA, numeroB));
                        break;
                    }
                    case 4: {
                        System.out.print("Digite o segundo numero: ");
                        numeroB = scanner.nextDouble();
-                       System.out.println(calculadora.multiplicacao(numeroA, numeroB));
+                       System.out.println(calculadora.calcularMultiplicacao(numeroA, numeroB));
                        break;
                    }
                    case 5: {
-                       System.out.println(calculadora.raizQuadrada(numeroA));
+                       System.out.println(calculadora.calcularRaizQuadrada(numeroA));
                        break;
                    }
                    case 6: {
-                       System.out.println(calculadora.piso(numeroA));
+                       System.out.println(calculadora.calcularPiso(numeroA));
                        break;
                    }
                    case 7: {
-                       System.out.println(calculadora.teto(numeroA));
+                       System.out.println(calculadora.calcularTeto(numeroA));
                        break;
                    }
                    case 8: {
                        System.out.print("Digite o segundo numero: ");
                        numeroB = scanner.nextDouble();
-                       System.out.println(calculadora.exponencial(numeroA, numeroB));
+                       System.out.println(calculadora.calcularExponencial(numeroA, numeroB));
                        break;
                    }
                    default:
